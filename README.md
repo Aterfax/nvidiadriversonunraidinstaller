@@ -45,7 +45,7 @@ Now manually replace bzfirmware bzimage bzmodules bzroot bzroot-gui with their n
 Reboot and re-run Step 2 to re-install the drivers (Unraid purges the filesystem on reboot afterall.)
 
 
-Many thanks to @CHBMB as I've edited from his script.
+Many thanks to [@CHBMB](https://github.com/CHBMB/) as I've edited from his script.
 
 Please note I have not automated many steps and you need to re-install the drivers in step 2 everytime you reboot.
 (Someone make a plugin to do it? Or write a script to be cron'd)
