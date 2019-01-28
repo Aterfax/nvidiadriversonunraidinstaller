@@ -45,6 +45,7 @@ Now manually replace bzfirmware bzimage bzmodules bzroot bzroot-gui with their n
 ## Step 5
 Reboot and re-run Step 2 to re-install the drivers (Unraid purges the filesystem on reboot afterall.)
 
+Further documentation can be found here: https://stackoverflow.com/questions/25185405/using-gpu-from-a-docker-container
 
 Many thanks to [@CHBMB](https://github.com/CHBMB/) as I've edited from his script.
 
