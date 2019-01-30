@@ -16,7 +16,7 @@ https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda_10.0.1
 Note if you are doing GPU passthrough you need to use the same files for host and docker.
 
 ```
-ENV CUDA_RUN https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda_10.0.130_410.48_linux
+CUDA_RUN="https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda_10.0.130_410.48_linux"
 cd /opt && \
   wget $CUDA_RUN && \
   chmod +x cuda_10.0.130_410.48_linux && \
@@ -29,8 +29,8 @@ cd /opt/nvidia_installers && ls -alh && \
   ./cuda-linux.10.0.130-24817639.run -noprompt
 
 # Ensure the CUDA libs and binaries are in the correct environment variables
-ENV LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.0/lib64
-ENV PATH=$PATH:/usr/local/cuda-10.0/bin
+LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.0/lib64
+PATH=$PATH:/usr/local/cuda-10.0/bin
 ```
 
 
